@@ -3,13 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.testing.code.Rediff_TestNG">
+      <class name="parameterization_testng.xml_file.Parameterization">
         <methods>
-          <include name="logineCredentials"/>
-          <include name="logout"/>
-          <include name="launchBrowzer"/>
+          <include name="rediffParameterization"/>
         </methods>
-      </class> <!-- com.testing.code.Rediff_TestNG -->
+      </class> <!-- parameterization_testng.xml_file.Parameterization -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

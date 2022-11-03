@@ -18,7 +18,7 @@ public void launchBrowzer() {
 	WebDriverManager.chromedriver().setup();
 	driver = new ChromeDriver();
 	driver.manage().window().maximize();
-	driver.get("");
+	driver.get("https://mail.rediff.com/cgi-bin/login.cgi");
 	
 }
 
